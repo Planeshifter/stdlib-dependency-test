@@ -1,0 +1,15 @@
+{
+  "name": "stdlib-dependency-test",
+  "version": "1.0.0",
+  "description": "A demo repository for a library which depends both directly on stdlib and indirectly through a dependency.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@planeshifter/test-library": "^1.0.0",
+    "@stdlib/stdlib": "0.0.92"
+  }
+}
